@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "ئېرپان ئۆگىنىش قورالى",
+  "version": "1.0.0",
+  "description": "جېسون (JSON) ھۆججىتى ئاساسىدا كىتاب ۋە دەرسلىكلەردىن 30 مۇھىم سۇئال ئۆگىنىش، توركۆرگۈچ ئېچىلغاندا ئەسكەرتىش ۋە PDF چىقىرىش قىستۇرمىسى. نۆل ئىز قوغلاش، پۈتۈنلەي يەرلىك ساقلاش.",
+  "permissions": [
+    "storage",
+    "notifications"
+  ],
+  "action": {
+    "default_title": "ئېرپان ئۆگىنىش قورالى",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "popup.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline';"
+  }
+}

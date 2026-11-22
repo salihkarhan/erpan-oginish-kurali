@@ -1,0 +1,6 @@
+{
+  "name": "ئېرپان ئۆگىنىش قورالى — Chrome Extension Studio",
+  "description": "جېسون (JSON) ئاساسىدىكى شەخسىي بىلىم ئۆگىنىش Chrome Manifest V3 قىستۇرمىسى، جانلىق سىناق مۇھىتى، PRD/SPEC ۋە ئۇسلۇب كۆرسەتمىسى.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
